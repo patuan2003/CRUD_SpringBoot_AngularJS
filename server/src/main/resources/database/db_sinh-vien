@@ -1,0 +1,24 @@
+CREATE DATABASE full_stack
+
+USE full_stack
+
+CREATE TABLE sinh_vien(
+                          id bigint primary key AUTO_INCREMENT not null,
+                          ten varchar(50),
+                          tuoi int,
+                          gioi_tinh bit,
+                          chuyen_nganh varchar(50)
+)
+select *from sinh_vien
+    INSERT INTO sinh_vien
+( ten, tuoi, gioi_tinh, chuyen_nganh)
+VALUES( 'A', 25, 1, 'ptpm');
+INSERT INTO sinh_vien
+( ten, tuoi, gioi_tinh, chuyen_nganh)
+VALUES( 'B', 25, 0, 'tktw');
+INSERT INTO sinh_vien
+( ten, tuoi, gioi_tinh, chuyen_nganh)
+VALUES( 'hangnt169', 100, 0, 'tktw');
+INSERT INTO sinh_vien
+( ten, tuoi, gioi_tinh, chuyen_nganh)
+VALUES( 'NguyenVV4', 200, 1, 'tktw');

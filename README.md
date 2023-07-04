@@ -1,2 +1,2 @@
 # CRUD_SpringBoot_AngularJS
-Basic
+CRUD basic sử dụng restful api
